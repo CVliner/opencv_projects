@@ -5,7 +5,7 @@ import numpy as np
 ###################################
 widthImg=540
 heightImg =640
-#####################################
+###################################
 
 cap = cv2.VideoCapture(1)
 cap.set(10,150)
@@ -102,13 +102,9 @@ while True:
     biggest = getContours(imgThres)
     if biggest.size !=0:
         imgWarped=getWarp(img,biggest)
-        # imageArray = ([img,imgThres],
-        #           [imgContour,imgWarped])
         imageArray = ([imgContour, imgWarped])
         cv2.imshow("ImageWarped", imgWarped)
     else:
-        # imageArray = ([img, imgThres],
-        #               [img, img])
         imageArray = ([imgContour, img])
 
     stackedImages = stackImages(0.6,imageArray)
