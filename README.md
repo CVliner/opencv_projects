@@ -1,6 +1,6 @@
 ### OpenCV Learning Guide
 
-Welcome to the OpenCV Learning Guide! This repository is designed to help you learn and practice OpenCV with real projects, a powerful open-source library for computer vision and image processing tasks.
+This repository is designed to help you learn and practice OpenCV with real projects, a powerful open-source library for computer vision and image processing tasks.
 
 ### Introduction
 OpenCV (Open Source Computer Vision Library) is an open-source computer vision and machine learning software library. It provides a common infrastructure for computer vision applications and accelerates the use of machine perception in commercial products.
